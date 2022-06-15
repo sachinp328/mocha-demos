@@ -25,7 +25,7 @@ describe('factorialShort', function() {
     it('should return 362880 when called with number 9', function() {
         // modifying test
         // modifying test to run ftm 2
-        //testing pre merge
+        //testing pre merge 2
         expect(factorial.factorialShort(9)).to.be.equal(362880);
     });
 
