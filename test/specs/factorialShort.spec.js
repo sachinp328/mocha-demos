@@ -17,10 +17,12 @@ describe('factorialShort', function() {
     });
 
     it('should return 6 when called with number 3', function() {
+        // modifying test
         expect(factorial.factorialShort(3)).to.be.equal(6);
     });
 
     it('should return 362880 when called with number 9', function() {
+        // modifying test
         expect(factorial.factorialShort(9)).to.be.equal(362880);
     });
 
