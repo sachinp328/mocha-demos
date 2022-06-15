@@ -18,6 +18,7 @@ describe('factorialShort', function() {
 
     it('should return 6 when called with number 3', function() {
         // modifying test
+        //testing pre merge
         expect(factorial.factorialShort(3)).to.be.equal(6);
     });
 
