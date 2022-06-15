@@ -27,6 +27,7 @@ describe('factorialShort', function() {
     });
 
     it('should throw an error if provided with a negative number', function() {
+        // modifying test
         let callWithError = () => factorial.factorialShort(-1);
         expect(spy).to.be.a.spy;
         expect(callWithError).to.throw(`Negative number!`);
