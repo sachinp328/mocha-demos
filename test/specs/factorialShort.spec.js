@@ -23,6 +23,7 @@ describe('factorialShort', function() {
 
     it('should return 362880 when called with number 9', function() {
         // modifying test
+        // modifying test to run ftm
         expect(factorial.factorialShort(9)).to.be.equal(362880);
     });
 
@@ -35,6 +36,7 @@ describe('factorialShort', function() {
     });
 
     it('should be called twice when provided with 2', function() {
+        // modifying test to run ftm
         factorial.factorialShort(2);
         expect(spy).to.have.been.called(2);
     });
