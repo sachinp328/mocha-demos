@@ -33,6 +33,7 @@ describe('factorialShort', function() {
         // modifying test
         // modifying test to run ftm
         //testing pre merge 2
+        //testing ftm with failure - 1
         let callWithError = () => factorial.factorialShort(-1);
         expect(spy).to.be.a.spy;
         expect(callWithError).to.throw(`Negative number!`);
