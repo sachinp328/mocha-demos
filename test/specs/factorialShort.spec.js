@@ -20,6 +20,7 @@ describe('factorialShort', function() {
         // modifying test
         //testing pre merge
         //testing ftm with failure - 2
+        //fixing failure
         expect(factorial.factorialShort(3)).to.be.equal(6);
     });
 
