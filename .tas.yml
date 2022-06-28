@@ -1,5 +1,6 @@
 --- 
 framework: mocha
+version: "1.2.0"
 postMerge: 
   pattern: 
     - "test/**/*.spec.js"
