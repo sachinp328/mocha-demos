@@ -12,6 +12,7 @@
  #testing multiple commit 1
  #testing multiple commit 2
  #testing api
+ #testing new ftm algo
 
 This is an example project for Mocha tests written in JavaScript and running on Node.js.
 Run tests by simply running the `npm test` command from the project root directory.
