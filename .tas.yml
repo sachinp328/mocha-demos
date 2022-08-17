@@ -11,3 +11,4 @@ preMerge:
 preRun: 
   command: 
     - npm ci
+parallelism: 2
