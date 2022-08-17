@@ -12,3 +12,4 @@ preRun:
   command: 
     - npm ci
 parallelism: 2
+smartRun: false
